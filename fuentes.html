@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuentes de Información</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Proyecto Minimalista</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/index.html" class="menu-item">Inicio</a></li>
+                    <li><a href="acerca-de-mi.html" class="menu-item">Acerca de mí</a></li>
+                    <li><a href="acerca-de-la-materia.html" class="menu-item">Acerca de la Materia</a></li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('conceptos-basicos')">Conceptos
+                            Básicos</button>
+                        <ul id="conceptos-basicos" class="submenu">
+                            <li><a href="conceptos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="conceptos/ajax.html">AJAX</a></li>
+                            <li><a href="conceptos/jquery.html">JQuery</a></li>
+                            <li><a href="conceptos/mootools.html">Mootools</a></li>
+                            <li><a href="conceptos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('ejemplos-basicos')">Ejemplos
+                            Básicos</button>
+                        <ul id="ejemplos-basicos" class="submenu">
+                            <li><a href="ejemplos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="ejemplos/ajax.html">AJAX</a></li>
+                            <li><a href="ejemplos/jquery.html">JQuery</a></li>
+                            <li><a href="ejemplos/mootools.html">Mootools</a></li>
+                            <li><a href="ejemplos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="fuentes.html" class="menu-item">Fuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container">
+        <h1 class="section-title">Fuentes de Información</h1>
+        <p>Formato APA:</p>
+        <ul>
+            <li>Autor, A. (Año). *Título del recurso*. Editorial/Sitio web. URL.</li>
+            <li>Ejemplo: W3Schools. (2024). *HTML Tutorial*. Obtenido de https://www.w3schools.com/html/</li>
+        </ul>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Mi Proyecto. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
