@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Tarea 1</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/index.html" class="menu-item">Inicio</a></li>
+                    <li><a href="/acerca-de-mi.html" class="menu-item">Acerca de mí</a></li>
+                    <li><a href="/acerca-de-la-materia.html" class="menu-item">Acerca de la Materia</a></li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('conceptos-basicos')">Conceptos
+                            Básicos</button>
+                        <ul id="conceptos-basicos" class="submenu">
+                            <li><a href="/conceptos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="/conceptos/ajax.html">AJAX</a></li>
+                            <li><a href="/conceptos/jquery.html">JQuery</a></li>
+                            <li><a href="/conceptos/mootools.html">Mootools</a></li>
+                            <li><a href="/conceptos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('ejemplos-basicos')">Ejemplos
+                            Básicos</button>
+                        <ul id="ejemplos-basicos" class="submenu">
+                            <li><a href="/ejemplos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="/ejemplos/ajax.html">AJAX</a></li>
+                            <li><a href="/ejemplos/jquery.html">JQuery</a></li>
+                            <li><a href="/ejemplos/mootools.html">Mootools</a></li>
+                            <li><a href="/ejemplos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/fuentes.html" class="menu-item">Fuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container">
+        <section>
+            <h2>Prototype</h2>
+            <p>Prototype es una biblioteca de JavaScript que expande las funcionalidades nativas del lenguaje,
+                simplificando tareas como la manipulación de datos y eventos en aplicaciones web.</p>
+            <br>
+            <h3>Características Principales</h3>
+            <ul>
+                <li><strong>Extensión de objetos nativos:</strong> Amplía las capacidades de los objetos básicos de
+                    JavaScript.</li>
+                <li><strong>Manipulación del DOM:</strong> Simplifica la selección y modificación de elementos HTML.
+                </li>
+                <li><strong>Soporte para AJAX:</strong> Facilita la realización de peticiones asíncronas.</li>
+            </ul>
+            <br>
+            <h3>Ventajas</h3>
+            <ul>
+                <li>Es fácil de usar y aprender para desarrolladores principiantes.</li>
+                <li>Proporciona una base sólida para el desarrollo de aplicaciones web.</li>
+                <li>Fue una de las primeras bibliotecas en simplificar el desarrollo web dinámico.</li>
+            </ul>
+            <br>
+            <h3>Importancia</h3>
+            <p>Prototype jugó un papel clave en la evolución de las aplicaciones web dinámicas y sigue siendo una
+                herramienta relevante para ciertos proyectos específicos.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; © 2024 Tarea 1. 21490580. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MooTools</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Tarea 1</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/index.html" class="menu-item">Inicio</a></li>
+                    <li><a href="/acerca-de-mi.html" class="menu-item">Acerca de mí</a></li>
+                    <li><a href="/acerca-de-la-materia.html" class="menu-item">Acerca de la Materia</a></li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('conceptos-basicos')">Conceptos
+                            Básicos</button>
+                        <ul id="conceptos-basicos" class="submenu">
+                            <li><a href="/conceptos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="/conceptos/ajax.html">AJAX</a></li>
+                            <li><a href="/conceptos/jquery.html">JQuery</a></li>
+                            <li><a href="/conceptos/mootools.html">Mootools</a></li>
+                            <li><a href="/conceptos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('ejemplos-basicos')">Ejemplos
+                            Básicos</button>
+                        <ul id="ejemplos-basicos" class="submenu">
+                            <li><a href="/ejemplos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="/ejemplos/ajax.html">AJAX</a></li>
+                            <li><a href="/ejemplos/jquery.html">JQuery</a></li>
+                            <li><a href="/ejemplos/mootools.html">Mootools</a></li>
+                            <li><a href="/ejemplos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/fuentes.html" class="menu-item">Fuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container">
+        <section>
+            <h2>MooTools</h2>
+            <p>MooTools (My Object-Oriented Tools) es un framework de JavaScript que utiliza un enfoque orientado a
+                objetos para simplificar tareas y mejorar la interacción dinámica en aplicaciones web.</p>
+            <br>
+            <h3>Características Principales</h3>
+            <ul>
+                <li><strong>Estructura orientada a objetos:</strong> Facilita la organización y reutilización del
+                    código.</li>
+                <li><strong>Efectos y transiciones:</strong> Ofrece herramientas para crear animaciones suaves.</li>
+                <li><strong>Modularidad:</strong> Permite cargar solo los componentes necesarios.</li>
+            </ul>
+            <br>
+            <h3>Ventajas</h3>
+            <ul>
+                <li>Proporciona un alto grado de personalización.</li>
+                <li>Facilita el desarrollo de aplicaciones con interacciones complejas.</li>
+                <li>Es ligero y eficiente en términos de rendimiento.</li>
+            </ul>
+            <br>
+            <h3>Importancia</h3>
+            <p>Aunque ha perdido popularidad frente a otras herramientas, MooTools sigue siendo útil en proyectos que
+                requieren una estructura orientada a objetos.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; © 2024 Tarea 1. 21490580. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>

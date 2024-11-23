@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecanismos de Seguridad</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Tarea 1</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/index.html" class="menu-item">Inicio</a></li>
+                    <li><a href="/acerca-de-mi.html" class="menu-item">Acerca de mí</a></li>
+                    <li><a href="/acerca-de-la-materia.html" class="menu-item">Acerca de la Materia</a></li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('conceptos-basicos')">Conceptos
+                            Básicos</button>
+                        <ul id="conceptos-basicos" class="submenu">
+                            <li><a href="/conceptos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="/conceptos/ajax.html">AJAX</a></li>
+                            <li><a href="/conceptos/jquery.html">JQuery</a></li>
+                            <li><a href="/conceptos/mootools.html">Mootools</a></li>
+                            <li><a href="/conceptos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('ejemplos-basicos')">Ejemplos
+                            Básicos</button>
+                        <ul id="ejemplos-basicos" class="submenu">
+                            <li><a href="/ejemplos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="/ejemp  los/ajax.html">AJAX</a></li>
+                            <li><a href="/ejemplos/jquery.html">JQuery</a></li>
+                            <li><a href="/ejemplos/mootools.html">Mootools</a></li>
+                            <li><a href="/ejemplos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/fuentes.html" class="menu-item">Fuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container">
+        <section>
+            <h2>Mecanismos de Seguridad en Formularios</h2>
+            <p>Los mecanismos de seguridad en formularios son medidas implementadas para proteger los datos ingresados
+                por los usuarios y garantizar la seguridad de las aplicaciones web.</p>
+            <br>
+            <h3>Objetivos</h3>
+            <ul>
+                <li><strong>Evitar ataques:</strong> Proteger contra inyecciones SQL, Cross-Site Scripting (XSS) y otros
+                    tipos de ataques maliciosos.</li>
+                <li><strong>Validar entradas:</strong> Asegurar que los datos ingresados sean correctos y seguros antes
+                    de procesarlos.</li>
+                <li><strong>Proteger información confidencial:</strong> Evitar el robo o mal uso de datos sensibles.
+                </li>
+            </ul>
+            <br>
+            <h3>Técnicas Comunes</h3>
+            <ul>
+                <li><strong>Validación del lado del cliente:</strong> Comprobaciones rápidas de datos antes de enviarlos
+                    al servidor.</li>
+                <li><strong>Validación del lado del servidor:</strong> Verificación exhaustiva para evitar datos
+                    maliciosos.</li>
+                <li><strong>Cifrado de datos:</strong> Proteger la transmisión de información sensible.</li>
+            </ul>
+            <br>
+            <h3>Importancia</h3>
+            <p>Estos mecanismos garantizan la integridad, confidencialidad y seguridad de las aplicaciones, protegiendo
+                tanto a los usuarios como a los servidores.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; © 2024 Tarea 1. 21490580. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>

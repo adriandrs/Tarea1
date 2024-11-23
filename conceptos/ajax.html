@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Tarea 1</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/index.html" class="menu-item">Inicio</a></li>
+                    <li><a href="/acerca-de-mi.html" class="menu-item">Acerca de mí</a></li>
+                    <li><a href="/acerca-de-la-materia.html" class="menu-item">Acerca de la Materia</a></li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('conceptos-basicos')">Conceptos
+                            Básicos</button>
+                        <ul id="conceptos-basicos" class="submenu">
+                            <li><a href="/conceptos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="/conceptos/ajax.html">AJAX</a></li>
+                            <li><a href="/conceptos/jquery.html">JQuery</a></li>
+                            <li><a href="/conceptos/mootools.html">Mootools</a></li>
+                            <li><a href="/conceptos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('ejemplos-basicos')">Ejemplos
+                            Básicos</button>
+                        <ul id="ejemplos-basicos" class="submenu">
+                            <li><a href="/ejemplos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="/ejemplos/ajax.html">AJAX</a></li>
+                            <li><a href="/ejemplos/jquery.html">JQuery</a></li>
+                            <li><a href="/ejemplos/mootools.html">Mootools</a></li>
+                            <li><a href="/ejemplos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/fuentes.html" class="menu-item">Fuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Introducción a AJAX</h2>
+            <p>AJAX (Asynchronous JavaScript and XML) es una técnica que permite la comunicación asíncrona entre el
+                cliente y el servidor, evitando la necesidad de recargar la página completa.</p>
+            <br>
+            <h3>Características Principales</h3>
+            <ul>
+                <li><strong>Asincronía:</strong> Permite realizar operaciones sin interrumpir la interacción del
+                    usuario.</li>
+                <li><strong>Compatibilidad con múltiples formatos:</strong> Soporta XML, JSON, HTML, entre otros.</li>
+                <li><strong>Interacción dinámica:</strong> Actualiza partes específicas de una página web en tiempo
+                    real.</li>
+            </ul>
+            <br>
+            <h3>Ventajas</h3>
+            <ul>
+                <li>Mejora la experiencia del usuario al reducir tiempos de carga.</li>
+                <li>Minimiza el consumo de recursos al actualizar solo secciones específicas.</li>
+                <li>Fomenta el desarrollo de aplicaciones interactivas.</li>
+            </ul>
+            br
+            <h3>Importancia</h3>
+            <p>AJAX ha transformado la forma en que las aplicaciones web funcionan, permitiendo experiencias más fluidas
+                e interactivas.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; © 2024 Tarea 1. 21490580. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>

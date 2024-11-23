@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Tarea 1</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/index.html" class="menu-item">Inicio</a></li>
+                    <li><a href="/acerca-de-mi.html" class="menu-item">Acerca de mí</a></li>
+                    <li><a href="/acerca-de-la-materia.html" class="menu-item">Acerca de la Materia</a></li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('conceptos-basicos')">Conceptos
+                            Básicos</button>
+                        <ul id="conceptos-basicos" class="submenu">
+                            <li><a href="/conceptos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="/conceptos/ajax.html">AJAX</a></li>
+                            <li><a href="/conceptos/jquery.html">JQuery</a></li>
+                            <li><a href="/conceptos/mootools.html">Mootools</a></li>
+                            <li><a href="/conceptos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="menu-item dropdown" onclick="toggleSubMenu('ejemplos-basicos')">Ejemplos
+                            Básicos</button>
+                        <ul id="ejemplos-basicos" class="submenu">
+                            <li><a href="/ejemplos/mecanismos.html">Mecanismos de Seguridad</a></li>
+                            <li><a href="/ejemplos/ajax.html">AJAX</a></li>
+                            <li><a href="/ejemplos/jquery.html">JQuery</a></li>
+                            <li><a href="/ejemplos/mootools.html">Mootools</a></li>
+                            <li><a href="/ejemplos/prototype.html">Prototype</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/fuentes.html" class="menu-item">Fuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container">
+        <section id="acerca-de-mi" class="section">
+            <h2 class="section-title">Acerca de mí</h2>
+            <p><strong>Nombre:</strong> Adrian Fernando Santelis Mendoza</p>
+            <p><strong>No. de Control:</strong> 21490580</p>
+            <p><strong>Correo:</strong> a21490580@itmexicali.edu.mx</p>
+            <a href="/cv/index.html" class="btn">Ver Currículum Vitae</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; © 2024 Tarea 1. 21490580. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
